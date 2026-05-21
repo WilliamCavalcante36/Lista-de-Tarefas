@@ -1,0 +1,42 @@
+body{
+    font-family: Arial;
+    background-color: #4b4949;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+input{
+    width: 70%;
+    padding: 8px;
+}
+
+button{
+    padding: 8px;
+    cursor: pointer;
+}
+
+li{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #3a3a3a;
+   padding: 8px;
+   border-radius: 5px;
+}
+
+li button{
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
